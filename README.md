@@ -1,4 +1,4 @@
-# Trabajo-RARS
+###### Trabajo-RARS
 Repositorio para la evaluacion extraordinaria de Arquitectura de computadores
 
 
@@ -21,3 +21,4 @@ Para empezar necesitaba hacer una comprobacion para ver si se habia pulsado una 
 
 
 
+- [Jose Manuel Tostado Felipe](https://github.com/Josetost)
