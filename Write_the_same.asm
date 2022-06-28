@@ -5,8 +5,6 @@ register:		.word 0xFFFF0004
 password:		.word 0x00000061
 register_check_char:	.word 0xFFFF0000
 
-string:	.asciz "Acertaste!\n"
-
 .text
 setup:
 	# s0 <- display ready bit addr
@@ -18,9 +16,6 @@ setup:
 	lw	s1, 0(t0)
 	la	t0, register
 	lw	s3, 0(t0)
-	la	t0, password
-	lw	s4, 0(t0)
-	la	s2, string
 	
 	la	t0, register_check_char
 	lw	s5, 0(t0)
@@ -44,6 +39,3 @@ display_char:
 	
 end_of_string:
 	b setup
-	# Terminate
-	li	a7, 10
-	ecall

@@ -10,6 +10,7 @@ setup:
 	# s0 <- display ready bit addr
 	# s1 <- display register addr
 	# s2 <- pointer to string
+	# s3 <- register byte
 	la	t0, display_ready_addr
 	lw	s0, 0(t0)
 	la	t0, display_register_addr
