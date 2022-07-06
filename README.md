@@ -24,6 +24,7 @@ Para realizar la implementacion de este simplemente necesitaba comparar dos regi
 #### Funcionamiento
   - Escribir por el Keyboard del simulador la respuesta que creas que es la correcta.
 
+##
 
 ### Write_the_same.asm
 
@@ -37,6 +38,7 @@ Para empezar necesitaba hacer una comprobacion para ver si se habia pulsado una 
   - Escribir por el teclado del simulador todos los caracteres que uno quiera.
   - Apareceran por pantalla seguidamente.
 
+##
 
 ### Encriptado
 
@@ -49,6 +51,7 @@ La implementacion es una copia del write_the_same pero antes de mostrar el carac
 #### Funcionamiento
  - Escribir lo que uno quiera y te dara un codigo en la consola encriptado.
 
+##
 
 ### Desencriptado
 
@@ -62,6 +65,7 @@ La implementacion es simplemente hacer el algoritmo inverso al del encriptado, e
  Si has ejecutado el programa anterior y has guardado la salida de este:
   - Poner por el teclado los carácteres encriptados y te saldra el mensaje que habias puesto anteriormente.
 
+##
 
 
 
