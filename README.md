@@ -5,7 +5,7 @@ Repositorio para la evaluacion extraordinaria de Arquitectura de computadores
 ### Pregunta.asm
 
 #### Objetivo
-Este programa tiene como funcioalidad buscar la respuesta correcta, una vez encontrada aparecera por la consola la palabra "Acertaste". 
+Este programa tiene como funcioalidad buscar la respuesta correcta, una vez encontrada aparecera por la consola la palabra "Acertaste", si la respondes mal, aparecerá "Fallaste". 
 
 #### Implementacion
 Para realizar la implementacion de este simplemente necesitaba comparar dos registros, en uno tenia guardado la palabra y en otro el caracter que se esta escribiendo por el teclado. Una vez completado esta comprobacion simplemente escribo la palabra recorriendola byte a byte.
